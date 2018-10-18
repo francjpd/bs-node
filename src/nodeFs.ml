@@ -90,6 +90,9 @@ external unlinkSync : string -> unit  = "" [@@bs.module "fs"]
 
 external rmdirSync : string -> unit = ""  [@@bs.module "fs"]
 
+external statSync : string -> unit = "" [@@bs.val] [@@bs.module "fs"]
+
+
 (* TODO: [flags] support *)
 external openSync :
   path ->
