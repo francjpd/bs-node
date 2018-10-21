@@ -32,3 +32,5 @@ module Path = NodePath
 module Process = NodeProcess
 module StringBuffer = NodeStringBuffer
 module Crypto = NodeCrypto
+module Statsync = StatSync
+module Url = Url
